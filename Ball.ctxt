@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=Ball
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Ball\ here.\r\n\ \r\n\ @author\ Kai668\r\n\ @version\ 10/12/2021\r\n
+comment1.params=bounceTime
+comment1.target=void\ bounceDelayTime(int)
+comment1.text=\r\n\ Sets\ the\ delay\ for\ bounce.\r\n
+comment10.params=
+comment10.target=void\ checkForBounce()
+comment10.text=\r\n\ Checks\ to\ see\ if\ the\ ball\ is\ touching\ top\ and\ bottom\ of\ the\ world.\r\n\ touch\ \=\ bounce.\r\n
+comment2.params=startTime
+comment2.target=void\ startDelayTime(int)
+comment2.text=\r\n\ Sets\ delay\ for\ Start.\r\n
+comment3.params=
+comment3.target=Ball()
+comment3.text=\r\n\ Ball\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Act\ -\ do\ whatever\ the\ Ball\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment5.params=
+comment5.target=void\ soundEffect()
+comment5.text=\r\n\ Sets\ sound\ when\ it\ hits\ the\ paddle.\r\n
+comment6.params=
+comment6.target=void\ move()
+comment6.text=\r\n\ Moves\ the\ ball.\r\n
+comment7.params=
+comment7.target=void\ score()
+comment7.text=\r\n\ If\ it\ touches\ the\ left/right\ it\ tallies\ up\ points,\ sets\ back\ to\ center,\r\n\ and\ allows\ for\ the\ ball\ to\ pause\ when\ it\ resets\ to\ the\ center.\r\n
+comment8.params=
+comment8.target=void\ win()
+comment8.text=\r\n\ Stops\ the\ game\ when\ one\ player\ reaches\ a\ certain\ amount\ of\ points.\r\n
+comment9.params=
+comment9.target=void\ paddleBounce()
+comment9.text=\r\n\ Helps\ the\ ball\ bounce\ off\ the\ paddle\ after\ a\ certain\ amount\ of\ time.\r\n\ When\ it\ bounces,\ it\ can't\ bounce\ again\ after\ a\ certain\ amount\ of\ time.\r\n
+numComments=11
